@@ -16,7 +16,7 @@ const getLatestRepos = async (githubUsername: string) => {
       `https://api.github.com/search/repositories?q=user:${username}+sort:updated`,
       {
         headers: {
-          Authorization: `token ${token}`,
+          Authorization: `${token}`,
         },
       },
     );
@@ -25,7 +25,7 @@ const getLatestRepos = async (githubUsername: string) => {
     const latestSixRepos: Array<any> = filteredRepos.splice(0, 6);
     return latestSixRepos;
   } catch (err: any) {
-    return err;
+    return { ...err };
   }
 };
 
