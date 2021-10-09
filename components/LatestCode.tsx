@@ -1,19 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import getLatestRepos from '../lib/getLatestRepos';
 import userData from '../constants/data';
 import { GithubRepoCard } from './GithubRepoCard';
 
-export default function LatestCode() {
-  const [repos, setRepos] = useState([]);
+interface LatestCodeProps {
+  latestRepos: [];
+}
 
-  async function getRepositores() {
-    const latestRepos: any = await getLatestRepos(userData.gitHubUsername);
-    setRepos(latestRepos);
-  }
-
-  useEffect(() => {
-    getRepositores();
-  }, []);
+export default function LatestCode(props: LatestCodeProps) {
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
@@ -46,9 +39,9 @@ export default function LatestCode() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
-        {repos &&
-          repos.map((latestRepo, idx) => (
-            <GithubRepoCard latestRepo={latestRepo} key="idx" />
+        {props.latestRepos &&
+          props.latestRepos.map((latestRepo, idx) => (
+            <GithubRepoCard latestRepo={latestRepo} key={idx} />
           ))}
       </div>
     </section>
