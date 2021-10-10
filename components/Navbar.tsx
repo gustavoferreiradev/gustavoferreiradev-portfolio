@@ -218,11 +218,11 @@ export default function Navbar() {
             Experiência
           </a>
         </Link>
-        <Link href="/sobre">
+        {/* <Link href="/sobre">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contato
           </a>
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );
