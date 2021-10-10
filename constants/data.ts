@@ -41,8 +41,8 @@ const userData = {
   about: {
     title: '',
     description: [
-      `Desenvolvedor Front-End com foco na elaboração de interfaces visuais utilizando conceitos de usabilidade e responsividade. Iniciei minha carreira desenvolvendo sites institucionais utilizando o WordPress, onde por meio das técnicas de marketing digital ajudei diversas empresas a se posicionarem melhor na internet.`,
-      `Desenvovi diversos projetos ligados principalmente à área educacional e de agronegócio utilizando o ecossistema React, atuando ocasionalmente com testes e implementação de melhorias e manutenção sempre visando a melhor usabilidade dos clientes.`,
+      `Desenvolvedor Front-End com foco na elaboração de interfaces visuais utilizando conceitos de usabilidade e responsividade. Iniciei minha carreira desenvolvendo sites institucionais utilizando o WordPress, onde por meio das técnicas de marketing digital ajudei diversas empresas a se posicionarem melhor na Internet.`,
+      `Desenvolvi diversos projetos ligados principalmente à área educacional e de agronegócio utilizando o ecossistema React, atuando ocasionalmente com testes e implementação de melhorias e manutenção sempre visando a melhor usabilidade dos clientes.`,
       `Atualmente desenvolvo sistemas e soluções ligadas ao setor imobiliário, como foco nas áreas de gestão e CRM.`,
     ],
     currentProject: '',
