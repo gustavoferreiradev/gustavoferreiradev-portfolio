@@ -213,7 +213,7 @@ export default function Navbar() {
             Projetos
           </a>
         </Link>
-        <Link href="/sobre">
+        <Link href="/experiencia">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Experiência
           </a>
