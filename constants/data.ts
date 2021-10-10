@@ -66,7 +66,7 @@ const userData = {
     },
     {
       title: 'Analista de Suporte',
-      company: 'Suporte',
+      company: 'Smartcon',
       year: '2019-2020',
       companyLink: 'https://smartcon.dev.br',
       desc: 'Atendimento ao cliente de um sistema de agenda escolar digital. Elaboração de manuais e materiais de apoio para auxiliar os clientes. Testes funcionais e sugestões de melhoria em parceria com o time de desenvolvimento. ',
