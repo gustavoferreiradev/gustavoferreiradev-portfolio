@@ -7,7 +7,12 @@ interface ProjectProps {
 
 export default function ProjectCard(props: ProjectProps) {
   return (
-    <a href={props.link} className="w-full block shadow-2xl">
+    <a
+      href={props.link}
+      className="w-full block shadow-2xl"
+      target="_blank"
+      rel="noopener"
+    >
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img

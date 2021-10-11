@@ -12,14 +12,16 @@ export default function Footer() {
             <p className="dark:text-gray-400">
               Desenvolvido por
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
-                <a href="https://gustavoferreiradev.github.io">
-                  &nbsp;Gustavo Ferreira
-                </a>
+                <a href="https://gustavoferreira.dev">&nbsp;Gustavo Ferreira</a>
               </div>
             </p>
           </div>
           <div className="space-x-4 flex flex-row items-center">
-            <a href={userData.socialLinks.whatsapp}>
+            <a
+              href={userData.socialLinks.whatsapp}
+              target="_blank"
+              rel="noopener"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -32,7 +34,11 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a href={userData.socialLinks.linkedin}>
+            <a
+              href={userData.socialLinks.linkedin}
+              target="_blank"
+              rel="noopener"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

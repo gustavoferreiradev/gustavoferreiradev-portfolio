@@ -10,7 +10,11 @@ export default function FavouriteProjects() {
             Projetos Favoritos
           </h2>
           <Link href="/projetos">
-            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+            <a
+              className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+              target="_blank"
+              rel="noopener"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -32,17 +36,19 @@ export default function FavouriteProjects() {
         </header>
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           <a
-            href="https://github.com/gustavoferreiradev/innout"
+            href="https://expanse-tracker-react.netlify.app/"
             className="w-full block col-span-3 shadow-2xl"
+            target="_blank"
+            rel="noopener"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/innout-bater-ponto.png"
-                alt="Innout"
+                src="/sistema-financeiro-pessoal.png"
+                alt="Sistema Financeiro"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h3 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-500 rounded-md px-2">
-                Innout
+                Sistema Financeiro
               </h3>
               <h3 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -52,6 +58,8 @@ export default function FavouriteProjects() {
           <a
             href="https://pokedex-demo-vue.netlify.app/"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            target="_blank"
+            rel="noopener"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
@@ -70,8 +78,10 @@ export default function FavouriteProjects() {
             </div>
           </a>
           <a
-            href="https://app.netlify.com/sites/rpg-demo-reactjs"
+            href="https://rpg-demo-reactjs.netlify.app/"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
+            target="_blank"
+            rel="noopener"
           >
             <div className="relative overflow-hidden shadow-2xl">
               <img

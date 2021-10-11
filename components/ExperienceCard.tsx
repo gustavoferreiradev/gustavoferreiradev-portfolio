@@ -13,7 +13,12 @@ export default function ExperienceCard(props: ExperienceProps) {
         {props.year}
       </h1>
       <h1 className="font-semibold text-xl">{props.title}</h1>
-      <a href={props.companyLink} className="text-gray-500">
+      <a
+        href={props.companyLink}
+        className="text-gray-500"
+        target="_blank"
+        rel="noopener"
+      >
         {props.company}
       </a>
       <p className="text-gray-600 dark:text-gray-400 my-2">{props.desc}</p>

@@ -31,6 +31,8 @@ export default function AboutMe() {
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  target="_blank"
+                  rel="noopener"
                 >
                   e-mail
                 </a>{' '}
@@ -49,6 +51,7 @@ export default function AboutMe() {
                   href={userData.resumeUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  rel="noopener"
                 >
                   CV
                 </a>{' '}
@@ -63,6 +66,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -75,6 +80,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -87,6 +94,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -99,6 +108,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
