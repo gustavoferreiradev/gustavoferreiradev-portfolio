@@ -8,6 +8,31 @@ const userData = {
   address: 'Pato Branco, PR, Brasil',
   projects: [
     {
+      title: 'RPG',
+      link: 'https://rpg-demo-reactjs.netlify.app/',
+      imgUrl: '/rpg.png',
+    },
+    {
+      title: 'Galeria de Fotos',
+      link: 'https://photo-gallery-firebase-react.netlify.app/',
+      imgUrl: '/galeria-de-fotos.png',
+    },
+    {
+      title: 'Sistema Financeiro',
+      link: 'https://expanse-tracker-react.netlify.app/',
+      imgUrl: '/sistema-financeiro-pessoal.png',
+    },
+    {
+      title: 'To Do List',
+      link: 'https://2-do-list-react.netlify.app/',
+      imgUrl: '/todolist.png',
+    },
+    {
+      title: 'Genius',
+      link: 'https://genius-js-game.netlify.app/',
+      imgUrl: '/genius.png',
+    },
+    {
       title: 'Innout',
       link: 'https://github.com/gustavoferreiradev/innout',
       imgUrl: '/innout-bater-ponto.png',
@@ -26,6 +51,11 @@ const userData = {
       title: 'NET Promotion Score',
       link: 'https://github.com/gustavoferreiradev/net-promotion-score',
       imgUrl: '/net-promotion-score-preview.png',
+    },
+    {
+      title: 'Pokedéx',
+      link: 'https://pokedex-demo-vue.netlify.app/',
+      imgUrl: '/pokedex-vue.png',
     },
     {
       title: 'Plataforma Marvel',
