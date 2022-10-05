@@ -100,7 +100,7 @@ const userData = {
       company: 'Avanade',
       year: '2022-presente',
       companyLink: 'https://avanade.com',
-      desc: 'Desenvolvimento Front-End ede processos de RPA com as tecnologias Microsoft Power Platform, Microsoft Power Apps e Microsoft Power Virtual Agents',
+      desc: 'Desenvolvimento Front-End e de processos de RPA com as tecnologias Microsoft Power Platform, Microsoft Power Apps e Microsoft Power Virtual Agents',
     },
     {
       title: 'Desenvolvedor Web',
