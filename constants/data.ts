@@ -99,7 +99,7 @@ const userData = {
       title: 'Desenvolvedor Web Front-End',
       company: 'Avanade',
       year: '2022-presente',
-      companyLink: 'https://nullbug.dev',
+      companyLink: 'https://avanade.com',
       desc: 'Desenvolvimento Front-End ede processos de RPA com as tecnologias Microsoft Power Platform, Microsoft Power Apps e Microsoft Power Virtual Agents',
     },
     {
