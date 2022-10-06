@@ -154,7 +154,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    'https://drive.google.com/file/d/1NRrF47RnqbXDd7Hq6NQxrEXT4Bv37IP3/view?usp=sharing',
+    'https://drive.google.com/file/d/16AB-ONTeA2MNhQ2IxRHqxraxVP6k_RHu/view?usp=sharing',
   socialLinks: {
     instagram: 'https://instagram.com/gustavo.fer.silva',
     twitter: 'https://twitter.com/gustavofersilva',
