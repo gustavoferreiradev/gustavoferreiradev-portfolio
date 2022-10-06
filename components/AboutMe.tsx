@@ -184,6 +184,22 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
+            <h2 className="bg-blue-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+              Certificações
+            </h2>
+            <div className="flex flex-row flex-wrap mt-8">
+              <a
+                target="_blank"
+                rel="noopenner"
+                href="https://www.credly.com/badges/9b173a29-cd57-4821-b399-558f2088bdaf/public_url"
+              >
+                {' '}
+                <img
+                  src="/badges/microsoft-certified-azure-data-fundamentals.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
