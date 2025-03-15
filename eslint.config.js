@@ -1,10 +1,10 @@
-import globals from 'globals';
-import pluginJs from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import pluginReact from 'eslint-plugin-react';
+import { defineConfig } from 'eslint'
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import tseslint from '@typescript-eslint/eslint-plugin'
+import pluginReact from 'eslint-plugin-react'
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
+export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
     languageOptions: {
@@ -20,4 +20,4 @@ export default [
       'react/jsx-uses-vars': 'warn',
     },
   },
-];
+])
