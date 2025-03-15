@@ -2,6 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
+import { createConfigItem } from 'eslint';
 
 const parser = createConfigItem('@typescript-eslint/parser', { 
   global: true 
@@ -15,11 +16,11 @@ export default [
       globals: { ...globals.browser, ...globals.node },
       parser
     },
-    parser: "@typescript-eslint/parser", // Define o parser do TypeScript
-    plugins: [tseslint, pluginReact],      // Adiciona o plugin do TypeScript
+    parser: "@typescript-eslint/parser",
+    plugins: [tseslint, pluginReact, pluginJs],      
     rules: {
-      "react/react-in-jsx-scope": "off", // Desabilitar a regra react/react-in-jsx-scope
-      "react/jsx-uses-react": "off",    // Desabilitar a regra react/jsx-uses-react
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off",
     }
   }, 
 ];
