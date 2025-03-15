@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import userData from '../constants/data';
 import { GithubRepoCard } from './GithubRepoCard';
 
