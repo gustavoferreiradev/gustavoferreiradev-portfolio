@@ -10,9 +10,11 @@ export default [
     languageOptions: {
       globals: { ...globals.browser, ...globals.node }
     },
+    parser: "@typescript-eslint/parser", // Define o parser do TypeScript
+    plugins: [tseslint, pluginReact],      // Adiciona o plugin do TypeScript
     rules: {
       "react/react-in-jsx-scope": "off", // Desabilitar a regra react/react-in-jsx-scope
       "react/jsx-uses-react": "off",    // Desabilitar a regra react/jsx-uses-react
     }
-  },
- ];
+  }, 
+];
