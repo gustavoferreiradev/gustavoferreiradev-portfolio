@@ -1,9 +1,9 @@
-import React, { ReactChildren } from 'react';
+import { JSX } from 'react';
 import { RoughNotation } from 'react-rough-notation';
 
 interface RainbowHighlightProps {
   color: string;
-  children: any;
+  children: JSX.Element
 }
 
 export function RainbowHighlight(props: RainbowHighlightProps) {

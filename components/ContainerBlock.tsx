@@ -1,8 +1,8 @@
-import React, { ReactChildren, ReactChild } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { JSX } from 'react';
 
 interface ContainerProps {
   title: string;
