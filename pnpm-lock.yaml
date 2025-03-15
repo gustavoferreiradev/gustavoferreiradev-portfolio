@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@babel/core':
-        specifier: ^7.26.10
-        version: 7.26.10
       '@babel/plugin-syntax-top-level-await':
         specifier: ^7.14.5
         version: 7.14.5(@babel/core@7.26.10)
@@ -51,6 +48,9 @@ importers:
         specifier: ^2.2.16
         version: 2.2.19(autoprefixer@10.4.21(postcss@8.5.3))(postcss@8.5.3)
     devDependencies:
+      '@babel/core':
+        specifier: ^7.26.10
+        version: 7.26.10
       '@eslint/eslintrc':
         specifier: ^3.3.0
         version: 3.3.0

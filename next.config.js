@@ -9,6 +9,7 @@ export function webpack(config) {
       loader: 'babel-loader',
       options: {
         plugins: ['@babel/plugin-syntax-top-level-await'],
+        presets: ['next/babel']
       },
     },
   });
