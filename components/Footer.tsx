@@ -11,9 +11,9 @@ export default function Footer() {
           <div>
             <p className="dark:text-gray-400">
               Desenvolvido por
-              <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
+              <span className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a href="https://gustavoferreira.dev">&nbsp;Gustavo Ferreira</a>
-              </div>
+              </span>
             </p>
           </div>
           <div className="space-x-4 flex flex-row items-center">

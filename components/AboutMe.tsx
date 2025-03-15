@@ -29,9 +29,9 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 Se você necessitar de ajuda ou quiser saber mais, me envie um{' '}
                 <a
+                  target="_blank"
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                  target="_blank"
                   rel="noopener"
                 >
                   e-mail
@@ -46,7 +46,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 Estou sempre aberto à novas oportunidades e/ou serviços
                 freelancer, se você deseja conhecer mais sobre minhas áreas de
-                atuação e experiências, veja meu{' '}
+                atuação e experiências, veja meu
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -54,7 +54,7 @@ export default function AboutMe() {
                   rel="noopener"
                 >
                   CV
-                </a>{' '}
+                </a>
                 entre em contato e ficarei muito grato em trabalhar com você!
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></span>
                     Facebook
                   </p>
                 </a>
@@ -85,7 +85,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></span>
                     GitHub
                   </p>
                 </a>
@@ -99,7 +99,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></span>
                     LinkedIn
                   </p>
                 </a>
@@ -113,7 +113,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></span>
                     Instagram
                   </p>
                 </a>
@@ -192,8 +192,7 @@ export default function AboutMe() {
                 target="_blank"
                 rel="noopenner"
                 href="https://www.credly.com/badges/9b173a29-cd57-4821-b399-558f2088bdaf/public_url"
-              >
-                {' '}
+              >             
                 <img
                   src="/badges/microsoft-certified-azure-data-fundamentals.png"
                   className="h-20 w-20 mx-4 my-4"
