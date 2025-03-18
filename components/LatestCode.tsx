@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import userData from '../constants/data';
 import { GithubRepoCard } from './GithubRepoCard';
 
@@ -19,7 +19,7 @@ export default function LatestCode(props: LatestCodeProps) {
             href={`https://github.com/${userData.gitHubUsername}`}
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

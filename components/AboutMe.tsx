@@ -32,7 +32,7 @@ export default function AboutMe() {
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   e-mail
                 </a>{' '}
@@ -51,7 +51,7 @@ export default function AboutMe() {
                   href={userData.resumeUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   CV
                 </a>{' '}
@@ -67,11 +67,11 @@ export default function AboutMe() {
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"/>
                     Facebook
                   </p>
                 </a>
@@ -81,11 +81,11 @@ export default function AboutMe() {
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"/>
                     GitHub
                   </p>
                 </a>
@@ -95,11 +95,11 @@ export default function AboutMe() {
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"/>
                     LinkedIn
                   </p>
                 </a>
@@ -109,11 +109,11 @@ export default function AboutMe() {
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"/>
                     Instagram
                   </p>
                 </a>
@@ -138,50 +138,62 @@ export default function AboutMe() {
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="JavaScript"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="PHP"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="TypeScript"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="HTML"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="CSS"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="NodeJS"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="WordPress"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="Git"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="React"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="PostgreSQL"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="MySQL"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png"
                 className="h-20 w-20 mx-4 my-4"
+                alt="Docker"
               />
             </div>
             <h2 className="bg-blue-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
@@ -190,13 +202,14 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               <a
                 target="_blank"
-                rel="noopenner"
+                rel="noreferrer"
                 href="https://www.credly.com/badges/9b173a29-cd57-4821-b399-558f2088bdaf/public_url"
               >
                 {' '}
                 <img
                   src="/badges/microsoft-certified-azure-data-fundamentals.png"
                   className="h-20 w-20 mx-4 my-4"
+                  alt="DP-900"
                 />
               </a>
             </div>

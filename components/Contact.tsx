@@ -1,5 +1,4 @@
 import React from 'react';
-import userData from '../constants/data';
 
 export default function Contact() {
   // const rows: number = 4;

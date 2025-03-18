@@ -20,7 +20,7 @@ export default function Footer() {
             <a
               href={userData.socialLinks.whatsapp}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export default function Footer() {
             <a
               href={userData.socialLinks.linkedin}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

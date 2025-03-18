@@ -1,9 +1,5 @@
 import axios from 'axios';
 
-interface ServerResponse {
-  data: ServerData;
-}
-
 interface ServerData {
   items: Array<any>;
 }

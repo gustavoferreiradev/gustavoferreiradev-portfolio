@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <a target="_blank" rel="noopener">
+            <a target="_blank" rel="noreferrer">
               <h1 className="font-semibold text-xl dark:text-gray-100">
                 {userData.name}
               </h1>
@@ -33,13 +33,14 @@ export default function Navbar() {
         <nav className="space-x-8 hidden md:block">
           <Link href="/sobre">
             <a
+              href=""
               className={`text-base ${
                 router.asPath === '/sobre'
                   ? 'text-gray-800 font-bold dark:text-gray-400'
                   : 'text-gray-600 dark:text-gray-300 font-normal'
               }`}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               Sobre{' '}
               {router.asPath === '/sobre' && (
@@ -61,13 +62,14 @@ export default function Navbar() {
           </Link>
           <Link href="/projetos">
             <a
+              href=""
               className={`text-base ${
                 router.asPath === '/projetos'
                   ? 'text-gray-800 font-bold dark:text-gray-400'
                   : 'text-gray-600 dark:text-gray-300 font-normal'
               }`}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               Projetos{' '}
               {router.asPath === '/projetos' && (
@@ -95,7 +97,7 @@ export default function Navbar() {
                   : 'text-gray-600 dark:text-gray-300 font-normal'
               }`}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               Experiência{' '}
               {router.asPath === '/experiencia' && (
@@ -147,7 +149,7 @@ export default function Navbar() {
             href={userData.socialLinks.whatsapp}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +166,7 @@ export default function Navbar() {
             href={userData.socialLinks.linkedin}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +219,7 @@ export default function Navbar() {
           <a
             className="text-base font-normal text-gray-600 dark:text-gray-300"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             Sobre
           </a>
@@ -226,7 +228,7 @@ export default function Navbar() {
           <a
             className="text-base font-normal text-gray-600 dark:text-gray-300"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             Projetos
           </a>
@@ -235,7 +237,7 @@ export default function Navbar() {
           <a
             className="text-base font-normal text-gray-600 dark:text-gray-300"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             Experiência
           </a>

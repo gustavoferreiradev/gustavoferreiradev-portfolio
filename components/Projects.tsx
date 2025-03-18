@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import userData from '../constants/data';
-import ExperienceCard from './ExperienceCard';
 import ProjectCard from './ProjectsCard';
 
 export default function Projects() {

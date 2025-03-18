@@ -1,4 +1,4 @@
-import React, { ReactChildren, ReactChild } from 'react';
+import React, { ReactElement } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Footer from './Footer';
@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 interface ContainerProps {
   title: string;
   description?: string;
-  children: JSX.Element | JSX.Element[];
+  children: ReactElement | ReactElement[];
 }
 
 export default function ContainerBlock(

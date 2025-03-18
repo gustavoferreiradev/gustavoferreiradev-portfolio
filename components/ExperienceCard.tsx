@@ -17,7 +17,7 @@ export default function ExperienceCard(props: ExperienceProps) {
         href={props.companyLink}
         className="text-gray-500"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
       >
         {props.company}
       </a>

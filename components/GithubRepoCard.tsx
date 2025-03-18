@@ -19,7 +19,7 @@ export function GithubRepoCard(props: gitHubRepoCardProps) {
         href={props.latestRepo.clone_url}
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
       >
         <p className="dark:text-gray-500">Ver Repositório</p>
         <div className="transform  group-hover:translate-x-2 transition duration-300">
