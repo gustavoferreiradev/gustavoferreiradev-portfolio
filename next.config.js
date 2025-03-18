@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
+  experimental: {
+    layers: true
+  },
   webpack(config) {
     config.experiments = { topLevelAwait: true };
     config.module.rules.push({
