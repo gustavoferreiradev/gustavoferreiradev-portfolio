@@ -30,7 +30,7 @@ export default function Hero() {
             height={350}
             src={userData.avatarUrl}
             alt="avatar"
-            className="shadow"
+            className="shadow-sm"
           />
         </div>
       </div>
