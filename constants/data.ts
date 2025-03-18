@@ -96,21 +96,28 @@ const userData = {
   },
   experience: [
     {
-      title: 'Desenvolvedor Web Front-End',
-      company: 'Avanade',
-      year: '2022-presente',
-      companyLink: 'https://avanade.com',
-      desc: 'Desenvolvimento Front-End e de processos de RPA com as tecnologias Microsoft Power Platform, Microsoft Power Apps e Microsoft Power Virtual Agents',
+      title: 'Desenvolvedor Web Full Stack Sênior',
+      company: 'Fortics',
+      year: '2023-2025',
+      companyLink: 'https://www.fortics.com.br',
+      desc: 'Atuação em projetos de tecnologias como Chatbot e IA. Utilizando linguagens como PHP, Laravel, MongoDB, GoLang, NodeJS, NestJS, VueJS. Correção de bugs e implementação de novos recursos. Revisão de códigos. Experiência com DevOps realizando deploy com Gitlab CI utilizando-se de pipelines para integração com Helm e Kubernetes no GCP Cloud nos ambientes de QA. Elaboração de versões do produto e acompanhamento dos testes junto ao setor de QA e ao Product Owner.',
     },
     {
-      title: 'Desenvolvedor Web',
+      title: 'Desenvolvedor Web Front-End Pleno',
+      company: 'Avanade',
+      year: '2022-2023',
+      companyLink: 'https://avanade.com',
+      desc: 'Atuei em projetos nas áreas de seguros e bancária. Atuando com Front End (JavaScript, Angular e React) e BFF (Back For Front com NodeJS). Dei apoio a projetos internos utilizando ferramentas de Low Code (Microsoft Power Platform, Microsoft Power Automate).',
+    },
+    {
+      title: 'Desenvolvedor Web Front-End Pleno',
       company: 'Nullbug',
       year: '2021-2022',
       companyLink: 'https://nullbug.dev',
       desc: 'Desenvolvimento da interface de aplicações voltadas a diversos setores. Utilizando tecnologias como NextJS, ReactJS, JavaScript, Material UI. Implementação de novos recursos, otimização de acordo com práticas de Clean Code e experiência do usuário, correção de bugs de acordo com o reportado pelo setor de QA.',
     },
     {
-      title: 'Desenvolvedor Web',
+      title: 'Desenvolvedor Web Full Stack Pleno',
       company: 'Widesys',
       year: '2021',
       companyLink: 'https://widesys.com.br',
@@ -118,7 +125,7 @@ const userData = {
     },
 
     {
-      title: 'Desenvolvedor Web Front-End',
+      title: 'Desenvolvedor Web Front-End Júnior',
       company: 'Smartcon',
       year: '2020-2021',
       companyLink: 'https://smartcon.dev.br',
@@ -147,9 +154,9 @@ const userData = {
     },
     {
       title: 'Análise e Desenvolvimento de Sistemas',
-      company: 'UTFPR Campus Pato Branco',
-      year: '2016-presente',
-      companyLink: 'http://portal.utfpr.edu.br/',
+      company: 'Faculdade Descomplica',
+      year: '2023-presente',
+      companyLink: 'https://descomplica.com.br/faculdade',
       desc: 'Graduação em Análise e Desenvolvimento de Sistemas em andamento.',
     },
   ],
