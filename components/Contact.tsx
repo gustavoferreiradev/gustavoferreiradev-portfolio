@@ -149,7 +149,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-hidden py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
@@ -157,7 +157,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-hidden py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
             />
             <label
@@ -169,7 +169,7 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-hidden py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
             <button
