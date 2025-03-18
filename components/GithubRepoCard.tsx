@@ -22,9 +22,9 @@ export function GithubRepoCard(props: gitHubRepoCardProps) {
         rel="noreferrer"
       >
         <p className="dark:text-gray-500">Ver Repositório</p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">
+        <span className="transform  group-hover:translate-x-2 transition duration-300">
           &rarr;
-        </div>
+        </span>
       </a>
     </div>
   );

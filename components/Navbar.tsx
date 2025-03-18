@@ -18,104 +18,103 @@ export default function Navbar() {
     <header className="max-w6xl mx-auto px-4 py-10 md:py-20">
       <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
-          <Link href="/">
-            <a target="_blank" rel="noreferrer">
-              <h1 className="font-semibold text-xl dark:text-gray-100">
-                {userData.name}
-              </h1>
-              <p className="text-base font-light text-gray-500 dark:text-gray-300">
-                {userData.designation}
-              </p>
-            </a>
+          <Link href="/" target="_blank" rel="noreferrer">
+          <>
+
+            <h1 className="font-semibold text-xl dark:text-gray-100">
+              {userData.name}
+            </h1>
+            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+              {userData.designation}
+            </p>
+            </>
           </Link>
         </div>
 
         <nav className="space-x-8 hidden md:block">
-          <Link href="/sobre">
-            <a
-              href=""
-              className={`text-base ${
-                router.asPath === '/sobre'
-                  ? 'text-gray-800 font-bold dark:text-gray-400'
-                  : 'text-gray-600 dark:text-gray-300 font-normal'
-              }`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sobre{' '}
-              {router.asPath === '/sobre' && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
+          <Link
+            href="/sobre"
+            className={`text-base ${
+              router.asPath === '/sobre'
+                ? 'text-gray-800 font-bold dark:text-gray-400'
+                : 'text-gray-600 dark:text-gray-300 font-normal'
+            }`}
+            target="_blank"
+            rel="noreferrer">
+            <>
+            Sobre{' '}
+            {router.asPath === '/sobre' && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
+            </>
           </Link>
-          <Link href="/projetos">
-            <a
-              href=""
-              className={`text-base ${
-                router.asPath === '/projetos'
-                  ? 'text-gray-800 font-bold dark:text-gray-400'
-                  : 'text-gray-600 dark:text-gray-300 font-normal'
-              }`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Projetos{' '}
-              {router.asPath === '/projetos' && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
+          <Link
+            href="/projetos"
+            className={`text-base ${
+              router.asPath === '/projetos'
+                ? 'text-gray-800 font-bold dark:text-gray-400'
+                : 'text-gray-600 dark:text-gray-300 font-normal'
+            }`}
+            target="_blank"
+            rel="noreferrer">
+            <>
+            Projetos{' '}
+            {router.asPath === '/projetos' && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
+            </>
           </Link>
-          <Link href="/experiencia">
-            <a
-              className={`text-base ${
-                router.asPath === '/experiencia'
-                  ? 'text-gray-800 font-bold dark:text-gray-400'
-                  : 'text-gray-600 dark:text-gray-300 font-normal'
-              }`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Experiência{' '}
-              {router.asPath === '/experiencia' && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
+          <Link
+            href="/experiencia"
+            className={`text-base ${
+              router.asPath === '/experiencia'
+                ? 'text-gray-800 font-bold dark:text-gray-400'
+                : 'text-gray-600 dark:text-gray-300 font-normal'
+            }`}
+            target="_blank"
+            rel="noreferrer">
+            <>
+            Experiência{' '}
+            {router.asPath === '/experiencia' && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
+            </>
           </Link>
           {/* <Link href="/contato">
             <a
@@ -213,34 +212,33 @@ export default function Navbar() {
           )}
         </button>
       </div>
-
       <nav className="space-x-8 block md:hidden mt-4">
-        <Link href="/sobre">
-          <a
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
-            target="_blank"
-            rel="noreferrer"
-          >
+        <Link
+          href="/sobre"
+          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          target="_blank"
+          rel="noreferrer">
+          
             Sobre
-          </a>
+          
         </Link>
-        <Link href="/projetos">
-          <a
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
-            target="_blank"
-            rel="noreferrer"
-          >
+        <Link
+          href="/projetos"
+          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          target="_blank"
+          rel="noreferrer">
+          
             Projetos
-          </a>
+          
         </Link>
-        <Link href="/experiencia">
-          <a
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
-            target="_blank"
-            rel="noreferrer"
-          >
+        <Link
+          href="/experiencia"
+          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          target="_blank"
+          rel="noreferrer">
+          
             Experiência
-          </a>
+          
         </Link>
         {/* <Link href="/sobre">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
