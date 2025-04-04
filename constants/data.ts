@@ -8,7 +8,42 @@ const userData = {
   address: 'Pato Branco, PR, Brasil',
   projects: [
     {
-      title: 'Multiform',
+      title: 'Curso de Cupcakes',
+      link: 'https://gustavoferreira.eti.br/sites/cursodecupcakes/',
+      imgUrl: 'curso-de-cupcakes.png',
+    },
+    {
+      title: 'Sabore Pizzaria',
+      link: 'https://gustavoferreira.eti.br/sites/saborepizzaria/',
+      imgUrl: 'sabore-pizzaria.png',
+    },
+    {
+      title: 'MContabilidade',
+      link: 'https://gustavoferreira.eti.br/sites/mcontabilidade',
+      imgUrl: 'mcontabilidade.png',
+    },
+    {
+      title: 'Loja Virtual',
+      link: 'https://nextjs-store-mocha.vercel.app/',
+      imgUrl: 'loja-virtual.png',
+    },
+    {
+      title: 'Cadastro de Funcionários',
+      link: 'https://jovial-baklava-a769ab.netlify.app/',
+      imgUrl: 'cadastro-de-funcionarios.png',
+    },
+    {
+      title: 'Blog Posts',
+      link: 'https://extraordinary-speculoos-6fa9c4.netlify.app/',
+      imgUrl: 'blog-posts.png',
+    },
+    {
+      title: 'Blog Posts',
+      link: 'https://extraordinary-speculoos-6fa9c4.netlify.app/',
+      imgUrl: 'blog-posts.png',
+    },
+    {
+      title: 'Multiformulário',
       link: 'https://multiform-with-react-hooks.netlify.app/',
       imgUrl: 'multiformulario-react.png',
     },
