@@ -38,11 +38,6 @@ const userData = {
       imgUrl: 'blog-posts.png',
     },
     {
-      title: 'Blog Posts',
-      link: 'https://extraordinary-speculoos-6fa9c4.netlify.app/',
-      imgUrl: 'blog-posts.png',
-    },
-    {
       title: 'Multiformulário',
       link: 'https://multiform-with-react-hooks.netlify.app/',
       imgUrl: 'multiformulario-react.png',
