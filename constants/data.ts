@@ -9,17 +9,17 @@ const userData = {
   projects: [
     {
       title: 'Curso de Cupcakes',
-      link: 'https://gustavoferreira.eti.br/sites/cursodecupcakes/',
+      link: 'https://cupcakes.gustavoferreiradev.com.br/',
       imgUrl: 'curso-de-cupcakes.png',
     },
     {
       title: 'Sabore Pizzaria',
-      link: 'https://gustavoferreira.eti.br/sites/saborepizzaria/',
+      link: 'https://pizzaria.gustavoferreiradev.com.br/',
       imgUrl: 'sabore-pizzaria.png',
     },
     {
       title: 'MContabilidade',
-      link: 'https://gustavoferreira.eti.br/sites/mcontabilidade',
+      link: 'https://mcontabilidade.gustavoferreiradev.com.br/',
       imgUrl: 'mcontabilidade.png',
     },
     {
@@ -28,90 +28,15 @@ const userData = {
       imgUrl: 'loja-virtual.png',
     },
     {
-      title: 'Cadastro de Funcionários',
-      link: 'https://jovial-baklava-a769ab.netlify.app/',
-      imgUrl: 'cadastro-de-funcionarios.png',
-    },
-    {
-      title: 'Blog Posts',
-      link: 'https://extraordinary-speculoos-6fa9c4.netlify.app/',
-      imgUrl: 'blog-posts.png',
-    },
-    {
-      title: 'Multiformulário',
-      link: 'https://multiform-with-react-hooks.netlify.app/',
-      imgUrl: 'multiformulario-react.png',
-    },
-
-    {
-      title: 'RPG',
-      link: 'https://rpg-demo-reactjs.netlify.app/',
-      imgUrl: '/rpg.png',
-    },
-    {
-      title: 'Galeria de Fotos',
-      link: 'https://photo-gallery-firebase-react.netlify.app/',
-      imgUrl: '/galeria-de-fotos.png',
-    },
-    {
-      title: 'Sistema Financeiro',
-      link: 'https://expanse-tracker-react.netlify.app/',
-      imgUrl: '/sistema-financeiro-pessoal.png',
-    },
-    {
-      title: 'To Do List',
-      link: 'https://2-do-list-react.netlify.app/',
-      imgUrl: '/todolist.png',
-    },
-    {
-      title: 'Genius',
-      link: 'https://genius-js-game.netlify.app/',
-      imgUrl: '/genius.png',
-    },
-    {
       title: 'Innout',
-      link: 'https://github.com/gustavoferreiradev/innout',
+      link: 'https://innout.gustavoferreiradev.com.br/',
       imgUrl: '/innout-bater-ponto.png',
     },
-    {
-      title: 'Podcastr',
-      link: 'https://github.com/gustavoferreiradev/podcastr',
-      imgUrl: '/podcastr.png',
-    },
-    {
-      title: 'MoveIt',
-      link: 'https://moveit-rho-liard.vercel.app/',
-      imgUrl: '/moveit-next.png',
-    },
-    {
-      title: 'NET Promotion Score',
-      link: 'https://github.com/gustavoferreiradev/net-promotion-score',
-      imgUrl: '/net-promotion-score-preview.png',
-    },
-    {
-      title: 'Pokedéx',
-      link: 'https://pokedex-demo-vue.netlify.app/',
-      imgUrl: '/pokedex-vue.png',
-    },
-    {
-      title: 'Plataforma Marvel',
-      link: 'https://github.com/gustavoferreiradev/plataforma-marvel',
-      imgUrl: '/plataforma-marvel-login.png',
-    },
-    {
-      title: 'Rosana Bauer Psicologia',
-      link: 'http://gustavoferreira.tec.br/sites/rosanabauerpsicologia/',
-      imgUrl: '/rosanabauerpsicologia.png',
-    },
+    
     {
       title: 'Rosana Bauer Aviação',
-      link: 'http://gustavoferreira.tec.br/sites/rosanabauerpsicologia/aviacao/',
+      link: 'http://rosanabauerpsicologia.gustavoferreiradev.com.br/aviacao/',
       imgUrl: '/rosana-bauer-psicologia-aviacao.png',
-    },
-    {
-      title: 'Sociedade Espírita Fraternidade',
-      link: 'http://gustavoferreira.tec.br/sites/sefpatobranco/',
-      imgUrl: '/sefpatobranco.png',
     },
   ],
   about: {
@@ -124,7 +49,7 @@ const userData = {
     currentProject: '',
     currentProjectUrl: '',
   },
-  experience: [
+  experience: [    
     {
       title: 'Desenvolvedor Web Full Stack Sênior',
       company: 'Fortics',
