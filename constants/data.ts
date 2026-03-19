@@ -35,7 +35,7 @@ const userData = {
     
     {
       title: 'Rosana Bauer Aviação',
-      link: 'http://rosanabauerpsicologia.gustavoferreiradev.com.br/aviacao/',
+      link: 'https://rosanabauerpsicologia.gustavoferreiradev.com.br/aviacao/',
       imgUrl: '/rosana-bauer-psicologia-aviacao.png',
     },
   ],
